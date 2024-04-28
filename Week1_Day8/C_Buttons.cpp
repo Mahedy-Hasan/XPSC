@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    int sum = 0;
+    int maxValue = max(a,b);
+    if (a==b)
+    {
+        int maxSum = sum+maxValue+maxValue;
+        cout<<maxSum<<endl;
+    }
+    else
+    {
+        int maxSum = sum+maxValue+maxValue-1;
+        cout<<maxSum<<endl;
+    }
+    
+    return 0;
+}
