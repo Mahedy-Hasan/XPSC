@@ -1,1 +1,1 @@
-# XPSC-Week-1
+# XPSC
